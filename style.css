@@ -50,6 +50,9 @@ h1 {
 }
 
 
+
+
+
 .splash {
     background-size: cover;
     background-position: center top;
@@ -132,8 +135,7 @@ nav{
 #splashSection{
     display:flex;
     align-items: center;
-    text-align: center;
-}
+    justify-content:center; }
 
 
 
