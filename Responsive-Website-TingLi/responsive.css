@@ -1,0 +1,67 @@
+/* === For your Responsive CSS === */
+
+
+@media screen and (max-width:600px){ 
+    
+    
+    
+    header {
+        grid-template-columns: 100%; 
+        text-align:center;
+}
+
+    
+    main{
+        text-align:center;
+        grid-template-columns: 100%;
+    }
+    
+    
+    #nav a {
+        display: block;
+        background-color: orange; 
+    }
+    
+    
+    #splash {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        height: 10.7rem; 
+    }
+    
+    
+    
+    #splash {
+        grid-column: 1/2; }
+    
+    #app {
+        grid-column: 1/2; }
+    
+    footer{
+        grid-template-columns: 100%; 
+        text-align:center;
+        
+    }
+    
+    #social-media{
+        text-align:center;
+    }
+    
+    
+    #mobile-menu {
+        position: fixed; 
+        top: 10px; 
+        right: 10px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+         #nav a {
+        background-color: darkgray; 
+    }
+        
+    }
+
+
+}
+
+
